@@ -6,7 +6,11 @@
     },
     "tags": [ "crafting_table" ],
     "ingredients": [
-      { "item": "minecraft:pearlescent_froglight" },
+      [
+        { "item": "minecraft:pearlescent_froglight" },
+        { "item": "minecraft:ochre_froglight" },
+        { "item": "minecraft:verdant_froglight" }
+      ],
       { "item": "minecraft:purple_dye" }
     ],
     "result": {
