@@ -1,0 +1,29 @@
+{
+  "resource_pack_name": "GlowShards: O Brilho do Anfibrilho (Resource Pack)",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "anfibrilho_amarelo": {
+      "textures": "textures/blocks/anfibrilho_amarelo"
+    },
+    "anfibrilho_azul": {
+      "textures": "textures/blocks/anfibrilho_azul"
+    },
+    "anfibrilho_marrom": {
+      "textures": "textures/blocks/anfibrilho_marrom"
+    },
+    "anfibrilho_rosa": {
+      "textures": "textures/blocks/anfibrilho_rosa"
+    },
+    "anfibrilho_roxo": {
+      "textures": "textures/blocks/anfibrilho_roxo"
+    },
+    "anfibrilho_verde": {
+      "textures": "textures/blocks/anfibrilho_verde"
+    },
+    "anfibrilho_vermelho": {
+      "textures": "textures/blocks/anfibrilho_vermelho"
+    }
+  }
+}

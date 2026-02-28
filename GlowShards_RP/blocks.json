@@ -1,0 +1,31 @@
+{
+  "format_version": [1, 1, 0],
+  "glowshards:anfibrilho_amarelo": {
+    "textures": "anfibrilho_amarelo",
+    "sound": "glass"
+  },
+  "glowshards:anfibrilho_azul": {
+    "textures": "anfibrilho_azul",
+    "sound": "glass"
+  },
+  "glowshards:anfibrilho_marrom": {
+    "textures": "anfibrilho_marrom",
+    "sound": "glass"
+  },
+  "glowshards:anfibrilho_rosa": {
+    "textures": "anfibrilho_rosa",
+    "sound": "glass"
+  },
+  "glowshards:anfibrilho_roxo": {
+    "textures": "anfibrilho_roxo",
+    "sound": "glass"
+  },
+  "glowshards:anfibrilho_verde": {
+    "textures": "anfibrilho_verde",
+    "sound": "glass"
+  },
+  "glowshards:anfibrilho_vermelho": {
+    "textures": "anfibrilho_vermelho",
+    "sound": "glass"
+  }
+}
