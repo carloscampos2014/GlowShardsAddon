@@ -6,14 +6,8 @@
     },
     "tags": [ "crafting_table" ],
     "ingredients": [
-      [
-        { "item": "minecraft:pearlescent_froglight" },
-        { "item": "minecraft:ochre_froglight" },
-        { "item": "minecraft:verdant_froglight" }
-      ],
-      {
-        "item": "minecraft:red_dye"
-      }
+      { "item": "minecraft:pearlescent_froglight" },
+      { "item": "minecraft:red_dye"}
     ],
     "result": {
       "item": "glowshards:anfibrilho_vermelho",
