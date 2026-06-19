@@ -1,0 +1,39 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "calc14:esmeralda_gift",
+      "category": "Misc",
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:icon": "textures/items/stick",
+      "minecraft:foil": {},
+      "minecraft:use_animation": "eat",
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.items"
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:on_use": {
+        "event": "give_esmeralda_bow"
+      }
+    },
+    "events": {
+      "give_esmeralda_bow": {
+        "sequence": [
+          {
+            "give_item": {
+              "item": "calc14:esmeralda_bow",
+              "count": 1
+            }
+          },
+          {
+            "decrement_stack": {
+              "count": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

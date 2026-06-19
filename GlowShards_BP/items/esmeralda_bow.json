@@ -1,0 +1,37 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "calc14:esmeralda_bow",
+      "category": "Equipment",
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:icon": "textures/items/bow",
+      "minecraft:foil": {},
+      "minecraft:use_animation": "bow",
+      "minecraft:use_duration": 20,
+      "minecraft:cooldown": 10,
+      "minecraft:hand_equipped": true,
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.items"
+      },
+      "minecraft:on_use": {
+        "event": "shoot_esmeralda_fireball"
+      }
+    },
+    "events": {
+      "shoot_esmeralda_fireball": {
+        "sequence": [
+          {
+            "spawn_entity": {
+              "entity": "calc14:esmeralda_fireball",
+              "spawn_position": "eye_position",
+              "direction": "view_direction"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
