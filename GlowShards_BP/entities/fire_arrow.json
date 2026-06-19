@@ -2,7 +2,7 @@
   "format_version": "1.21.10",
   "minecraft:entity": {
     "description": {
-      "identifier": "calc14:fire_projectile",
+      "identifier": "calc14:fire_arrow",
       "is_spawnable": false,
       "is_summonable": false
     },
@@ -27,8 +27,8 @@
         }
       },
       "minecraft:collision_box": {
-        "width": 2.5,
-        "height": 2.5
+        "width": 0.5,
+        "height": 0.5
       },
       "minecraft:projectile": {
         "power": 6.5,

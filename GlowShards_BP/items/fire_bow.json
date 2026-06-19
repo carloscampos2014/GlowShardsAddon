@@ -17,7 +17,7 @@
         "parent": "itemGroup.name.combat"
       },
       "minecraft:charged_projectile": {
-        "projectile": "calc14:fire_projectile",
+        "projectile": "calc14:fire_arrow",
         "charged_exit_behavior": "release"
       }
     }
