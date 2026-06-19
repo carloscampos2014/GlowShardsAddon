@@ -16,21 +16,9 @@
       "minecraft:creative_category": {
         "parent": "itemGroup.name.combat"
       },
-      "minecraft:on_use": {
-        "event": "shoot_esmeralda_projectile"
-      }
-    },
-    "events": {
-      "shoot_esmeralda_projectile": {
-        "sequence": [
-          {
-            "spawn_entity": {
-              "entity": "calc14:fire_projectile",
-              "spawn_position": "eye_position",
-              "direction": "view_direction"
-            }
-          }
-        ]
+      "minecraft:charged_projectile": {
+        "projectile": "calc14:fire_projectile",
+        "charged_exit_behavior": "release"
       }
     }
   }
