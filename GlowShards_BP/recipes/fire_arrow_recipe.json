@@ -2,17 +2,17 @@
   "format_version": "1.20.0",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "glowshards:fire_gift_recipe"
+      "identifier": "glowshards:fire_arrow_recipe"
     },
     "tags": [ "crafting_table" ],
     "ingredients": [
-      { "item": "minecraft:stick" },
       { "item": "minecraft:gravel" },
-      { "item": "minecraft:dirt" }
+      { "item": "minecraft:stick" },
+      { "item": "minecraft:stone" }
     ],
     "result": {
-      "item": "glowshards:fire_gift",
-      "count": 1
+      "item": "glowshards:fire_arrow",
+      "count": 4
     }
   }
 }

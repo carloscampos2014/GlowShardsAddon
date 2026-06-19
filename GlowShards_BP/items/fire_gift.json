@@ -2,12 +2,12 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "calc14:fire_gift",
+      "identifier": "glowshards:fire_gift",
       "category": "Misc",
       "is_experimental": false
     },
     "components": {
-      "minecraft:icon": "textures/items/stick",
+      "minecraft:icon": "textures/items/arrow",
       "minecraft:foil": {},
       "minecraft:use_animation": "eat",
       "minecraft:creative_category": {
@@ -23,7 +23,7 @@
         "sequence": [
           {
             "give_item": {
-              "item": "calc14:fire_bow",
+              "item": "glowshards:fire_bow",
               "count": 1
             }
           },

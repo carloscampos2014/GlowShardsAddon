@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "calc14:fire_bow",
+      "identifier": "glowshards:fire_bow",
       "category": "Equipment",
       "is_experimental": false
     },
@@ -17,7 +17,7 @@
         "parent": "itemGroup.name.combat"
       },
       "minecraft:charged_projectile": {
-        "projectile": "calc14:fire_arrow",
+        "projectile": "glowshards:fire_arrow",
         "charged_exit_behavior": "release"
       }
     }

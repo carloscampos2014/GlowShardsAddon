@@ -14,6 +14,11 @@
       "version": [1, 0, 1]
     }
   ],
+  "localization": [
+    "en_US",
+    "pt_BR",
+    "es_ES"
+  ],
   "dependencies": [
     {
       "uuid": "3a1b4c92-52e3-4f1b-a633-9c81f21190bb", 
