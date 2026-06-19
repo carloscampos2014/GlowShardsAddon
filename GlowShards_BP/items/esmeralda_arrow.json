@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "calc14:esmeralda_arrow",
+      "identifier": "calc14:fire_arrow",
       "category": "Misc",
       "is_experimental": false
     },
@@ -10,7 +10,7 @@
       "minecraft:icon": "textures/items/arrow",
       "minecraft:use_animation": "bow",
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.items"
+        "parent": "itemGroup.name.combat"
       },
       "minecraft:render_offsets": "item",
       "minecraft:hand_equipped": true

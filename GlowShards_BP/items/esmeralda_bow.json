@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "calc14:esmeralda_bow",
+      "identifier": "calc14:fire_bow",
       "category": "Equipment",
       "is_experimental": false
     },
@@ -14,18 +14,18 @@
       "minecraft:cooldown": 10,
       "minecraft:hand_equipped": true,
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.items"
+        "parent": "itemGroup.name.combat"
       },
       "minecraft:on_use": {
-        "event": "shoot_esmeralda_fireball"
+        "event": "shoot_esmeralda_projectile"
       }
     },
     "events": {
-      "shoot_esmeralda_fireball": {
+      "shoot_esmeralda_projectile": {
         "sequence": [
           {
             "spawn_entity": {
-              "entity": "calc14:esmeralda_fireball",
+              "entity": "calc14:fire_projectile",
               "spawn_position": "eye_position",
               "direction": "view_direction"
             }

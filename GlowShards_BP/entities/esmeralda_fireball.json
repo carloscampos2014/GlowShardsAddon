@@ -2,7 +2,7 @@
   "format_version": "1.21.10",
   "minecraft:entity": {
     "description": {
-      "identifier": "calc14:esmeralda_fireball",
+      "identifier": "calc14:fire_projectile",
       "is_spawnable": false,
       "is_summonable": false
     },

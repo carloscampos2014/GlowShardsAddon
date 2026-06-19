@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "glowshards:esmeralda_gift_recipe"
+      "identifier": "glowshards:fire_gift_recipe"
     },
     "tags": [ "crafting_table" ],
     "ingredients": [
@@ -11,7 +11,7 @@
       { "item": "minecraft:dirt" }
     ],
     "result": {
-      "item": "calc14:esmeralda_gift",
+      "item": "calc14:fire_gift",
       "count": 1
     }
   }

@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "calc14:esmeralda_gift",
+      "identifier": "calc14:fire_gift",
       "category": "Misc",
       "is_experimental": false
     },
@@ -15,15 +15,15 @@
       },
       "minecraft:hand_equipped": true,
       "minecraft:on_use": {
-        "event": "give_esmeralda_bow"
+        "event": "give_fire_bow"
       }
     },
     "events": {
-      "give_esmeralda_bow": {
+      "give_fire_bow": {
         "sequence": [
           {
             "give_item": {
-              "item": "calc14:esmeralda_bow",
+              "item": "calc14:fire_bow",
               "count": 1
             }
           },
