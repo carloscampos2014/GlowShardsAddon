@@ -1,24 +1,38 @@
 {
-  "format_version": "1.20.0",
+  "format_version": "1.20.50",
   "minecraft:item": {
     "description": {
       "identifier": "glowshards:fire_bow",
-      "category": "Equipment",
-      "is_experimental": false
+      "menu_category": { "category": "equipment" }
     },
     "components": {
-      "minecraft:icon": "textures/items/bow",
-      "minecraft:foil": {},
-      "minecraft:use_animation": "bow",
-      "minecraft:use_duration": 20,
-      "minecraft:cooldown": 10,
+      "minecraft:icon": "fire_bow",
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": { "max_durability": 9999 },
       "minecraft:hand_equipped": true,
-      "minecraft:creative_category": {
-        "parent": "itemGroup.name.combat"
+      "minecraft:enchantable": {
+        "value": 15,
+        "slot": "bow"
       },
-      "minecraft:charged_projectile": {
-        "projectile": "glowshards:fire_arrow",
-        "charged_exit_behavior": "release"
+      "minecraft:damage": {
+        "value": 300
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 72000,
+        "movement_modifier": 0.35
+      },
+      "minecraft:use_animation": "bow",
+      "minecraft:shooter": {
+        "ammunition": [
+          {
+            "item": "glowshards:fire_arrow",
+            "use_offhand": true,
+            "search_inventory": true,
+            "use_in_creative": true
+          }
+        ],
+        "charge_on_draw": true,
+        "scale_power_by_draw_duration": true
       }
     }
   }

@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "GlowShards",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "fire_bow": { "textures": "textures/items/bow_standby" },
+    "fire_arrow": { "textures": "textures/items/arrow" },
+    "spawn_vagabundo": { "textures": "textures/items/egg_villager" }
+  }
+}
