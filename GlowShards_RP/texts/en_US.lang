@@ -1,7 +1,3 @@
-item.glowshards:fire_bow=Fire Bow
-item.glowshards:fire_arrow=Super Fire Arrow
-entity.glowshards:fire_arrow.name=Super Fire Arrow
-
 tile.glowshards:anfibrilho_amarelo.name=Yellow Anfibrilho
 tile.glowshards:anfibrilho_azul.name=Blue Anfibrilho
 tile.glowshards:anfibrilho_marrom.name=Brown Anfibrilho

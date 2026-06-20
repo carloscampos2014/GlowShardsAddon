@@ -1,7 +1,3 @@
-item.glowshards:fire_bow=Arco de Fuego
-item.glowshards:fire_arrow=Súper Flecha de Fuego
-entity.glowshards:fire_arrow.name=Súper Flecha de Fuego
-
 tile.glowshards:anfibrilho_amarelo.name=Anfibrilho Amarillo
 tile.glowshards:anfibrilho_azul.name=Anfibrilho Azul
 tile.glowshards:anfibrilho_marrom.name=Anfibrilho Marrón
